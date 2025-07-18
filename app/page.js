@@ -28,7 +28,8 @@ export default function HomePage() {
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 bg-gray-100 text-center">
         {/* Gallery */}
         <div className="home-grid-block">
-          <Link href="./gallery"><img src="/images/galleryH.jpg" alt="Gallery" className="rounded mb-4" />
+          <Link href="./gallery">
+          <Image src="/images/galleryH.jpg" alt="Gallery" className="rounded mb-4" />
           <h3 className="text-xl font-semibold mb-2">Gallery</h3>
           <p>Explore photos from past events, services and retreats.</p>
           </Link>
