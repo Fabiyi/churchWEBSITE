@@ -1,0 +1,17 @@
+[
+  {
+    "id": "gallery-1",
+    "title": "Youth Worship 2024",
+    "image": "/images/gallery1.jpg"
+  },
+  {
+    "id": "gallery-2",
+    "title": "Prayer Camp 2023",
+    "image": "/images/gallery2.jpg"
+  },
+  {
+    "id": "gallery-3",
+    "title": "Easter Service",
+    "image": "/images/gallery3.jpg"
+  }
+]
