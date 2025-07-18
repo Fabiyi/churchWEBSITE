@@ -1,6 +1,9 @@
 'use client';
 import Link from 'next/link';
 import events from '@/app/data/events';
+import Image from 'next/image';
+
+
 
 export default function EventsPage() {
   return (
@@ -10,7 +13,7 @@ export default function EventsPage() {
         {events.map(event => (
           <Link key={event.slug} href={`/events/${event.slug}`}>
             <div className="bg-white shadow rounded p-4 hover:shadow-md transition">
-              <img
+              <Image
                 src={event.image}
                 alt={event.title}
                 className="w-full h-40 object-cover rounded mb-3"

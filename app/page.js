@@ -1,6 +1,8 @@
 'use client';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 
 
@@ -47,7 +49,7 @@ export default function HomePage() {
         {/* Pastors */}
         <div className="home-grid-block">
           <Link href="./pastors">
-          <img src="/images/pastorsH.jpg" alt="Pastors" className="rounded mb-4" />
+          <Image src="/images/pastorsH.jpg" alt="Pastors" className="rounded mb-4" />
           <h3 className="text-xl font-semibold mb-2">Meet Our Pastors</h3>
           <p>Learn more about our founder, coordinators, and pastoral team.</p>
           </Link>
@@ -56,7 +58,7 @@ export default function HomePage() {
         {/* Camp Site */}
         <div className="home-grid-block">
           <Link href="./camp-site">
-          <img src="/images/campsiteH.jpg" alt="Camp Site" className="rounded mb-4" />
+          <Image src="/images/campsiteH.jpg" alt="Camp Site" className="rounded mb-4" />
           <h3 className="text-xl font-semibold mb-2">Camp Site</h3>
           <p>View our auditorium, cafeteria, toilet & parking lot facilities.</p>
           </Link>
@@ -65,7 +67,7 @@ export default function HomePage() {
         {/* Branches */}
         <div className="home-grid-block">
           <Link href="./branches">
-          <img src="/images/branchesH.jpg" alt="Branches" className="rounded mb-4" />
+          <Image src="/images/branchesH.jpg" alt="Branches" className="rounded mb-4" />
           <h3 className="text-xl font-semibold mb-2">Our Branches</h3>
           <p>Visit any of our branches across the region with coordinators and pastors.</p>
           </Link>
@@ -74,7 +76,7 @@ export default function HomePage() {
         {/* Events */}
         <div className="home-grid-block">
           <Link href="./events">
-          <img src="/images/eventsH.jpg" alt="Events" className="rounded mb-4" />
+          <Image src="/images/eventsH.jpg" alt="Events" className="rounded mb-4" />
           <h3 className="text-xl font-semibold mb-2">Upcoming Events</h3>
           <p>Join us in worship, revival, and community development programs.</p>
           </Link>

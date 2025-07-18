@@ -1,6 +1,9 @@
 'use client';
 import campsite from '@/app/data/campsite';
 import Link from 'next/link';
+import Image from 'next/image';
+
+
 
 export default function CampPage() {
   return (
@@ -10,7 +13,7 @@ export default function CampPage() {
         {campsite.map(item => (
           <Link key={item.slug} href={`/camp-site/${item.slug}`}>
             <div className="bg-white rounded shadow hover:shadow-lg transition p-4 text-center">
-              <img
+              <Image
                 src={item.image}
                 alt={item.title}
                 className="w-full h-48 object-cover rounded mb-4"

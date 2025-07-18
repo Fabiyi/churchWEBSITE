@@ -2,6 +2,9 @@
 import { useState } from 'react';
 import pastors from "@/app/data/pastor";
 import Link from 'next/link';
+import Image from 'next/image';
+
+
 
 export default function PastorsPage() {
   const [search, setSearch] = useState('');
@@ -47,7 +50,7 @@ export default function PastorsPage() {
         {visiblePastors.map(pastor => (
           <Link key={pastor.id} href={`/pastors/${pastor.slug}`}>
             <div className="bg-white shadow rounded p-4 text-center hover:shadow-md transition">
-              <img
+              <Image
                 src={pastor.image}
                 alt={pastor.name}
                 className="w-28 h-28 rounded-full mx-auto mb-3 object-cover"

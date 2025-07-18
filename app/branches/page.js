@@ -1,6 +1,8 @@
 'use client';
 import Link from 'next/link';
 import branches from '@/app/data/branches';
+import Image from 'next/image';
+
 
 export default function BranchesPage() {
   return (
@@ -10,7 +12,7 @@ export default function BranchesPage() {
         {branches.map(branch => (
           <Link key={branch.slug} href={`/branches/${branch.slug}`}>
             <div className="bg-white rounded shadow p-4 hover:shadow-md transition text-center">
-              <img
+              <Image
                 src={branch.image}
                 alt={branch.name}
                 className="w-full h-40 object-cover rounded mb-3"

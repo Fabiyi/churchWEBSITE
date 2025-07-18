@@ -2,6 +2,7 @@
 import branches from '@/app/data/branches';
 import { useParams } from 'next/navigation';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 
 export default function BranchDetail() {
   const { slug } = useParams();
@@ -11,7 +12,7 @@ export default function BranchDetail() {
 
   return (
     <section className="p-6 max-w-3xl mx-auto">
-      <img src={branch.image} alt={branch.name} className="rounded mb-4 w-full h-60 object-cover" />
+      <Image src={branch.image} alt={branch.name} className="rounded mb-4 w-full h-60 object-cover" />
       <h1 className="text-3xl font-bold mb-2">{branch.name}</h1>
       <p className="text-gray-600 mb-4">
         <strong>Coordinator:</strong> {branch.coordinator}

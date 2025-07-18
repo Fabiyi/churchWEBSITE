@@ -3,6 +3,8 @@ import { useParams } from 'next/navigation';
 import sermons from '@/app/data/sermons';
 import { notFound } from 'next/navigation';
 
+
+
 export default function SermonDetailPage() {
   const { slug } = useParams();
   const sermon = sermons.find(s => s.slug === slug);
