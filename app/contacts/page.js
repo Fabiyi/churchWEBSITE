@@ -22,7 +22,7 @@ export default function ContactPage() {
         <h1 className="text-3xl font-bold mb-6 text-center text-blue-900">Contact Us</h1>
 
         {submitted && (
-          <p className="mb-4 text-green-600 text-center">Thanks for reaching out. We'll get back to you!</p>
+          <p className="mb-4 text-green-600 text-center">Thanks for reaching out. We&#39;ll get back to you!</p>
         )}
 
         <form onSubmit={handleSubmit} className="space-y-4">
