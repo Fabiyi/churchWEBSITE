@@ -15,7 +15,8 @@ export default function BranchesPage() {
               <Image
                 src={branch.image}
                 alt={branch.name}
-                className="w-full h-40 object-cover rounded mb-3"
+                className="w-full h-40 object-cover rounded mb-3"  width={600}
+                  height={400}
               />
               <h2 className="text-xl font-semibold">{branch.name}</h2>
               <p className="text-gray-500 text-sm mt-1">{branch.coordinator}</p>

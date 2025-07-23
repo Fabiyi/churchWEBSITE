@@ -12,7 +12,8 @@ export default function BranchDetail() {
 
   return (
     <section className="p-6 max-w-3xl mx-auto">
-      <Image src={branch.image} alt={branch.name} className="rounded mb-4 w-full h-60 object-cover" />
+      <Image src={branch.image} alt={branch.name} className="rounded mb-4 w-full h-60 object-cover"  width={600}
+                  height={400} />
       <h1 className="text-3xl font-bold mb-2">{branch.name}</h1>
       <p className="text-gray-600 mb-4">
         <strong>Coordinator:</strong> {branch.coordinator}

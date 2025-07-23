@@ -29,7 +29,8 @@ export default function HomePage() {
         {/* Gallery */}
         <div className="home-grid-block">
           <Link href="./gallery">
-          <Image src="/images/galleryH.jpg" alt="Gallery" className="rounded mb-4" />
+          <Image src="/images/galleryH.jpg" alt="Gallery" className="rounded mb-4"  width={600}
+                  height={400} />
           <h3 className="text-xl font-semibold mb-2">Gallery</h3>
           <p>Explore photos from past events, services and retreats.</p>
           </Link>
@@ -50,7 +51,8 @@ export default function HomePage() {
         {/* Pastors */}
         <div className="home-grid-block">
           <Link href="./pastors">
-          <Image src="/images/pastorsH.jpg" alt="Pastors" className="rounded mb-4" />
+          <Image src="/images/pastorsH.jpg" alt="Pastors" className="rounded mb-4"  width={600}
+                  height={400} />
           <h3 className="text-xl font-semibold mb-2">Meet Our Pastors</h3>
           <p>Learn more about our founder, coordinators, and pastoral team.</p>
           </Link>
@@ -59,7 +61,8 @@ export default function HomePage() {
         {/* Camp Site */}
         <div className="home-grid-block">
           <Link href="./camp-site">
-          <Image src="/images/campsiteH.jpg" alt="Camp Site" className="rounded mb-4" />
+          <Image src="/images/campsiteH.jpg" alt="Camp Site" className="rounded mb-4"  width={600}
+                  height={400} />
           <h3 className="text-xl font-semibold mb-2">Camp Site</h3>
           <p>View our auditorium, cafeteria, toilet & parking lot facilities.</p>
           </Link>
@@ -68,7 +71,8 @@ export default function HomePage() {
         {/* Branches */}
         <div className="home-grid-block">
           <Link href="./branches">
-          <Image src="/images/branchesH.jpg" alt="Branches" className="rounded mb-4" />
+          <Image src="/images/branchesH.jpg" alt="Branches" className="rounded mb-4"  width={600}
+                  height={400} />
           <h3 className="text-xl font-semibold mb-2">Our Branches</h3>
           <p>Visit any of our branches across the region with coordinators and pastors.</p>
           </Link>
@@ -77,7 +81,8 @@ export default function HomePage() {
         {/* Events */}
         <div className="home-grid-block">
           <Link href="./events">
-          <Image src="/images/eventsH.jpg" alt="Events" className="rounded mb-4" />
+          <Image src="/images/eventsH.jpg" alt="Events" className="rounded mb-4"  width={600}
+                  height={400} />
           <h3 className="text-xl font-semibold mb-2">Upcoming Events</h3>
           <p>Join us in worship, revival, and community development programs.</p>
           </Link>

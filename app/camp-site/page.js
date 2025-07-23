@@ -17,6 +17,8 @@ export default function CampPage() {
                 src={item.image}
                 alt={item.title}
                 className="w-full h-48 object-cover rounded mb-4"
+                 width={600}
+                  height={400}
               />
               <h3 className="text-xl font-semibold">{item.title}</h3>
               <p className="text-gray-500 text-sm mt-2">{item.description.slice(0, 60)}...</p>

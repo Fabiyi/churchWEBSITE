@@ -54,6 +54,8 @@ export default function PastorsPage() {
                 src={pastor.image}
                 alt={pastor.name}
                 className="w-28 h-28 rounded-full mx-auto mb-3 object-cover"
+                 width={600}
+                  height={400}
               />
               <h3 className="font-semibold text-lg">{pastor.name}</h3>
               <p className="text-gray-500 text-sm">{pastor.role}</p>

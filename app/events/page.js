@@ -17,6 +17,8 @@ export default function EventsPage() {
                 src={event.image}
                 alt={event.title}
                 className="w-full h-40 object-cover rounded mb-3"
+                 width={600}
+                  height={400}
               />
               <h2 className="text-xl font-semibold">{event.title}</h2>
               <p className="text-gray-600">{event.date} • {event.time}</p>
